@@ -1,0 +1,13 @@
+all_classes
+dist
+build
+result
+test_video
+Dataset_for_Training
+road_sign_recognition.spec
+Garbage.zip
+code.html
+main.ui
+screen.png
+build.py
+.env

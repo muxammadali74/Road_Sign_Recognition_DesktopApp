@@ -1,0 +1,20 @@
+2025-11-11 17:07:50,046 - RoadSignRecognition - INFO - ==================================================
+2025-11-11 17:07:50,046 - RoadSignRecognition - INFO - Road Sign Recognition Application Started
+2025-11-11 17:07:50,046 - RoadSignRecognition - INFO - ==================================================
+2025-11-11 17:07:50,047 - RoadSignRecognition - INFO - Starting application...
+2025-11-11 17:07:56,056 - RoadSignRecognition - INFO - QApplication created
+2025-11-11 17:07:56,057 - RoadSignRecognition - INFO - Initializing MainApp...
+2025-11-11 17:07:57,260 - RoadSignRecognition - ERROR - Error during MainApp initialization: 'MainApp' object has no attribute 'pause_video'
+2025-11-11 17:07:57,261 - RoadSignRecognition - ERROR - Traceback (most recent call last):
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\ui\mainwindow.py", line 121, in __init__
+    self.ui.pushButton_4.clicked.connect(self.pause_video)  # pause
+AttributeError: 'MainApp' object has no attribute 'pause_video'
+
+2025-11-11 17:07:57,261 - RoadSignRecognition - ERROR - Fatal error in main: 'MainApp' object has no attribute 'pause_video'
+2025-11-11 17:07:57,261 - RoadSignRecognition - ERROR - Traceback (most recent call last):
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\main.py", line 21, in main
+    window = MainApp()
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\ui\mainwindow.py", line 121, in __init__
+    self.ui.pushButton_4.clicked.connect(self.pause_video)  # pause
+AttributeError: 'MainApp' object has no attribute 'pause_video'
+

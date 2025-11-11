@@ -1,0 +1,45 @@
+2025-11-11 17:09:13,899 - RoadSignRecognition - INFO - ==================================================
+2025-11-11 17:09:13,899 - RoadSignRecognition - INFO - Road Sign Recognition Application Started
+2025-11-11 17:09:13,899 - RoadSignRecognition - INFO - ==================================================
+2025-11-11 17:09:13,899 - RoadSignRecognition - INFO - Starting application...
+2025-11-11 17:09:16,870 - RoadSignRecognition - INFO - QApplication created
+2025-11-11 17:09:16,871 - RoadSignRecognition - INFO - Initializing MainApp...
+2025-11-11 17:09:17,989 - RoadSignRecognition - DEBUG - Setting up detection table
+2025-11-11 17:09:18,036 - RoadSignRecognition - DEBUG - Detection table setup completed
+2025-11-11 17:09:18,038 - RoadSignRecognition - INFO - Main window created
+2025-11-11 17:09:18,213 - RoadSignRecognition - INFO - Main window shown
+2025-11-11 17:09:18,213 - RoadSignRecognition - INFO - Entering application event loop
+2025-11-11 17:09:28,209 - RoadSignRecognition - INFO - Attempting to start video processing
+2025-11-11 17:09:28,374 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2025-11-11 17:09:30,737 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repos/ultralytics/assets/releases/tags/v8.3.0 HTTP/1.1" 200 None
+2025-11-11 17:09:31,652 - RoadSignRecognition - ERROR - Error in start_video: [Errno 2] No such file or directory: 'D:\\Myprojects\\Python\\For_GitHub\\Road_Sign_Recognition\\..\\models\\best.pt'
+2025-11-11 17:09:31,658 - RoadSignRecognition - ERROR - Traceback (most recent call last):
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\ui\mainwindow.py", line 286, in start_video
+    self.thread = VideoThread(
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\utils\video_thread.py", line 36, in __init__
+    self.model = YOLO(model_path)
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\.env\lib\site-packages\ultralytics\models\yolo\model.py", line 83, in __init__
+    super().__init__(model=model, task=task, verbose=verbose)
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\.env\lib\site-packages\ultralytics\engine\model.py", line 153, in __init__
+    self._load(model, task=task)
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\.env\lib\site-packages\ultralytics\engine\model.py", line 297, in _load
+    self.model, self.ckpt = load_checkpoint(weights)
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\.env\lib\site-packages\ultralytics\nn\tasks.py", line 1517, in load_checkpoint
+    ckpt, weight = torch_safe_load(weight)  # load ckpt
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\.env\lib\site-packages\ultralytics\nn\tasks.py", line 1464, in torch_safe_load
+    ckpt = torch_load(file, map_location="cpu")
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\.env\lib\site-packages\ultralytics\utils\patches.py", line 120, in torch_load
+    return torch.load(*args, **kwargs)
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\.env\lib\site-packages\torch\serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\.env\lib\site-packages\torch\serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "D:\Myprojects\Python\For_GitHub\Road_Sign_Recognition\.env\lib\site-packages\torch\serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Myprojects\\Python\\For_GitHub\\Road_Sign_Recognition\\..\\models\\best.pt'
+
+2025-11-11 17:09:54,165 - RoadSignRecognition - INFO - Application closing...
+2025-11-11 17:09:54,165 - RoadSignRecognition - INFO - Safe shutdown started
+2025-11-11 17:09:54,165 - RoadSignRecognition - INFO - Safe shutdown completed
+2025-11-11 17:09:54,166 - RoadSignRecognition - INFO - Application closed
+2025-11-11 17:09:54,172 - RoadSignRecognition - INFO - Application exited with code: 0

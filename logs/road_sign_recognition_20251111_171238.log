@@ -1,0 +1,17 @@
+2025-11-11 17:12:38,287 - RoadSignRecognition - INFO - ==================================================
+2025-11-11 17:12:38,287 - RoadSignRecognition - INFO - Road Sign Recognition Application Started
+2025-11-11 17:12:38,287 - RoadSignRecognition - INFO - ==================================================
+2025-11-11 17:12:38,287 - RoadSignRecognition - INFO - Starting application...
+2025-11-11 17:12:41,261 - RoadSignRecognition - INFO - QApplication created
+2025-11-11 17:12:41,262 - RoadSignRecognition - INFO - Initializing MainApp...
+2025-11-11 17:12:42,381 - RoadSignRecognition - DEBUG - Setting up detection table
+2025-11-11 17:12:42,394 - RoadSignRecognition - DEBUG - Detection table setup completed
+2025-11-11 17:12:42,396 - RoadSignRecognition - INFO - Main window created
+2025-11-11 17:12:42,486 - RoadSignRecognition - INFO - Main window shown
+2025-11-11 17:12:42,486 - RoadSignRecognition - INFO - Entering application event loop
+2025-11-11 17:12:49,359 - RoadSignRecognition - INFO - Attempting to start video processing
+2025-11-11 17:13:13,005 - RoadSignRecognition - INFO - Application closing...
+2025-11-11 17:13:13,006 - RoadSignRecognition - INFO - Safe shutdown started
+2025-11-11 17:13:13,006 - RoadSignRecognition - INFO - Safe shutdown completed
+2025-11-11 17:13:13,007 - RoadSignRecognition - INFO - Application closed
+2025-11-11 17:13:13,149 - RoadSignRecognition - INFO - Application exited with code: 0
